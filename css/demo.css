@@ -1,0 +1,194 @@
+#top-bg {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    background: url(/img/bg1.jpg) center center no-repeat;
+    background-color: #000000;
+    overflow: hidden;
+}
+#top-bg .landingtext {
+    width: 380px;
+    position: absolute;
+    top: 30%;
+    right: 15%;
+}
+#outer {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    background: url(../img/demomagopen.jpg) center center no-repeat;
+    background-color: #eff0f2;
+    cursor: crosshair;
+    overflow: hidden;
+}
+#explain {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.85);
+    margin-left: -180px;
+    font-family: "Montserrat", sans-serif;
+    padding: 22px 16px 0px 16px;
+    color: white;
+    width: 360px;
+    height: 99px;
+    background-color: rgba(28, 28, 28, 0.79);
+    border-radius: 10px;
+    border-color: 
+}
+#retry {
+    position: absolute;
+    top: 76%;
+    left: 50%;
+    box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.85);
+    margin-left: -120px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    padding: 13px 16px 0px 16px;
+    color: white;
+    width: 240px;
+    height: 46px;
+    background-color: rgba(28, 28, 28, 0.79);
+    border-radius: 10px;
+    border-color: 
+}
+#thing1 {
+    left: 50%;
+    top: 112px;
+    margin-left: 280px;
+    position: absolute;
+    width: 125px;
+    height: 150px;
+    background-color: green;
+}
+#thing2 {
+    left: 50%;
+    top: 265px;
+    margin-left: 195px;
+    position: absolute;
+    width: 120px;
+    height: 140px;
+    background-color: blue;
+}
+#thing3 {
+    left: 50%;
+    top: 410px;
+    margin-left: 35px;
+    position: absolute;
+    width: 252px;
+    height: 85px;
+    background-color: yellow;
+}
+#thing4 {
+    left: 50%;
+    top: 475px;
+    margin-left: 220px;
+    position: absolute;
+    width: 155px;
+    height: 150px;
+    background-color: red;
+}
+#thing5 {
+    right: 50%;
+    top: 400px;
+    margin-right: 20px;
+    position: absolute;
+    width: 110px;
+    height: 205px;
+    background-color: cyan;
+}
+#thing6 {
+    right: 50%;
+    top: 400px;
+    margin-right: 140px;
+    position: absolute;
+    width: 112px;
+    height: 205px;
+    background-color: grey;
+}
+#thing7 {
+    right: 50%;
+    top: 400px;
+    margin-right: 270px;
+    position: absolute;
+    width: 112px;
+    height: 205px;
+    background-color: purple;
+}
+#thing8 {
+    right: 50%;
+    top: 397px;
+    margin-right: 400px;
+    position: absolute;
+    width: 112px;
+    height: 208px;
+    background-color: pink;
+}
+.things {
+    z-index: 1001;
+    opacity: 0;
+}
+.phone {
+    position: relative;
+    width: 181px;
+    height: 381px;
+    background: transparent url(../img/phone2.png) center center no-repeat;
+    opacity: 1;
+    background-size: 100%;
+    z-index: 1000;
+}
+.phone .screen {
+    -webkit-transition: opacity 300ms;
+	transition: opacity 300ms;
+    position: absolute;
+    top: 88px;
+    left: 21px;
+    right: 20px;
+    bottom: 92px;
+    background: transparent;
+    overflow: hidden;
+}
+.hit {
+/*
+    -webkit-transition-delay: 600ms;
+	transition-delay: 600ms;
+*/
+}
+.phone .screen .missed {
+    display: block;
+    text-align: center;
+    font-family: "proxima-nova-alt",sans-serif;
+    font-weight: 700;
+    border-radius: 10px;
+    margin-top: 50px;
+    color: black;
+    opacity: 1;
+}
+    
+
+/*
+#outer .phone.triggered {
+	-webkit-transition-delay: 900ms;
+	transition-delay: 900ms
+}
+#outer .phone.triggered {
+	-webkit-transition: all 600ms 0;
+	transition: all 600ms 0
+}
+*/
+
+/*
+#outer .phone.triggered.main {
+    left: 40%
+}
+#outer .phone.triggered.main .screen {
+    opacity: 1
+}
+#outer .phone.triggered .hit {
+    left: 60%;
+    opacity: 1
+}
+#outer .phone.triggered .hit.cloning {
+    left: 40%;
+    opacity: 0
+}*/
